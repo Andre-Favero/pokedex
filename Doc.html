@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="icon" href="./images/flavicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./estilo.css">
+
+  <!-- Main JS -->
+  <script defer src="./script.js"></script>
+
+  <title>Pokédex</title>
+</head>
+<body>
+    <main>
+        <div class="card" style="width: 40rem;">
+          <div class="card-body">
+            <a href="./index.html" h5 class="card-title">Documentação</h5> </a>
+               <h4>Para nosso trabalho de desenvolver uma "Pokedex" para diversas gerações
+                de pokemons, pegamos por base a API que o professor disponibilizou no link
+                do próprio trabalho. </h4>
+                <br>
+                <h4>A partir disso buscamos definir, quais seriam os elementos principais 
+                    que iriam ser utilizados, dentre inúmeras opções possíveis, indo desde a 
+                    raridade do pokemon, seus locais de encontro, sua altura e peso, e até 
+                    mesmo a versão desejada do pokemon em questão.</h4>  
+                <br>
+                <h4>Dentre os dados que achamos mais relevantes exibir, estão:
+                <li>Imagem</li>
+                <li>Estatísticas</li>
+                <li>Elemento(s)</li>
+                <li>Forma "Shiny"</li>
+                </h4>
+                <br>
+                <h4>
+                    O principal metódo utilizado, foi o de trazer os dados de cada pokemon,
+                    a partir disso que começamos a desenvolver quais dados iríamos exibir.
+                    Realizamos a integração da caixa de pesquisa para que a mesma fosse 
+                    utilizada para localizar os pokemons tanto por seu nome quanto por seu 
+                    número de registro na pokedex.
+                    A partir do momento que o método para retornar os dados do pokemon passou
+                    a estar funcional, basicamente fizemos o javascript percorrer os campos
+                    respectivos a cada informação que desejávamos exibir.
+                </h4>
+                <br>
+                <h4>Após exibirmos as informações desejadas, criamos botões responsáveis por
+                    exibir os pokemons sucessores ou antecessores, seguindo por parametro o 
+                    seu número de cadastro.
+                    Além disso, criamos um botão para exibir a forma "Shiny" do pokemon, pegando
+                    o sprite visual dela tendo por base a forma padrão da geração escolhida, assim
+                    pode-se alternar entre a forma padrão e shiny sem ocorrer a quebra de alinhamento.
+                </h4>
+                <br><br>  
+                <a button id="botaoDoc" class="button btn-doc"  href = './index.html'>Home</a></button>]
+                <br>
+                <br><br>
+              </div>
+          </div>
+        </div>
+      </main>
+</body>
