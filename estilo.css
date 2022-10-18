@@ -15,7 +15,7 @@
 
 body {
   text-align: center;
-  background: radial-gradient(circle at center,  rgb(37, 165, 26), white);
+   background: radial-gradient(circle at center,  rgb(37, 165, 26), white);
   min-height: 100vh;
 }
 
