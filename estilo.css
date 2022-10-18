@@ -17,6 +17,7 @@ body {
   text-align: center;
   background: linear-gradient(to right bottom,  rgb(37, 165, 26), white);
   min-height: 100vh;
+  background-color: yellow;
 }
 
 main {
